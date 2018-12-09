@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Troll</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<audio src="music.mp3" controls autoplay loop preload="auto" id="demo"></audio>
+
+</body>
+<script>
+$(document).ready(function(){
+    playAudio()
+});
+var x = document.getElementById("demo"); 
+
+function playAudio() { 
+    x.play(); 
+} 
+</script>
+</html>
